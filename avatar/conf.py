@@ -10,7 +10,7 @@ class AvatarConf(AppConf):
     STORAGE_DIR = 'avatars'
     STORAGE_PARAMS = {}
     GRAVATAR_FIELD = 'email'
-    GRAVATAR_BASE_URL = 'http://www.gravatar.com/avatar/'
+    GRAVATAR_BASE_URL = 'https://www.gravatar.com/avatar/'
     GRAVATAR_BACKUP = True
     GRAVATAR_DEFAULT = None
     DEFAULT_URL = 'avatar/img/default.jpg'
