@@ -140,6 +140,9 @@ AVATAR_ALLOWED_MIMETYPES
     Suggested safe setting: ``("image/png", "image/gif", "image/jpeg")``.
     When enabled you'll get the following error on the form upload *File content is invalid.
     Detected: image/tiff Allowed content types are: image/png, image/gif, image/jpg*.
+    
+AVATAR_MAX_SIZE
+    File size limit for avatar upload. Default is ``1024 * 1024`` (1mb).
 
 
 Management Commands
